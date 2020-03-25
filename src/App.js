@@ -9,14 +9,14 @@ class App extends React.Component {
     this.state = {
         monedas: [
             {nombre: 'Peso Chileno', id: 'clp', conv: {
-                clp: 1, mxn: 0.029
+                clp: 1, eur: 0.0011
             }},
-            {nombre: 'Peso Mexicano', id: 'mxn', conv: {
-                clp: 34.02, mxn: 1
+            {nombre: 'Euro', id: 'eur', conv: {
+                clp: 912.14, eur: 1
             }},
         ],
         primero: 'clp',
-        segundo: 'mxn'
+        segundo: 'eur'
     }
   }
   render(){
